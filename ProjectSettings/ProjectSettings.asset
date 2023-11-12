@@ -154,6 +154,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
+    Android: com.cookingmaster.rk
     Standalone: com.DefaultCompany.2DProject
   buildNumber:
     Bratwurst: 0
