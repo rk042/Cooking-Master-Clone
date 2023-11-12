@@ -7,6 +7,7 @@ namespace CookingMaster
     public class Player : MonoBehaviour
     {
         [SerializeField] PlayerMovement playerMovement;
+        [SerializeField] float moveSpeed;
 
         private void Start()
         {
@@ -15,7 +16,7 @@ namespace CookingMaster
 
         private void Update()
         {
-            playerMovement.MovePlayerUpdate(transform);
+            playerMovement.MovePlayerUpdate(transform,moveSpeed);
         }
     }
 }

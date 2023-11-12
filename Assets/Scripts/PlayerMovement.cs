@@ -17,12 +17,10 @@ namespace CookingMaster
         [SerializeField] private KeyCode keycodeMoveLeft = KeyCode.A;
         [SerializeField] private KeyCode keycodeMoveRight = KeyCode.D;
 
-        [SerializeField] float moveSpeed = 10;
-
         Vector2 movement = Vector2.zero;
 
         // Update is called once per frame
-        public void MovePlayerUpdate(Transform transform)
+        public void MovePlayerUpdate(Transform transform, float moveSpeed)
         {
             movement = transform.position;
 
