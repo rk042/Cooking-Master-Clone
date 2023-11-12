@@ -4,11 +4,14 @@ using UnityEngine;
 
 namespace CookingMaster
 {
-    public class PlayerDrop : MonoBehaviour
+    public class PlayerDrop : MonoBehaviour,IPickupItems
     {
-        private void OnTriggerEnter2D(Collider2D collision)
+        PlayerPickUpManager manager;
+        public Queue<IFoodItem> pickUpItems => manager.pickUpItems;
+
+        private void Start()
         {
-            Debug.Log(collision.name);
+            manager = GetComponentInParent<PlayerPickUpManager>();
         }
     }
 }

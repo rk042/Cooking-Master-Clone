@@ -6,11 +6,17 @@ namespace CookingMaster
 {
     public class PlayerPickUp : MonoBehaviour
     {
+        PlayerPickUpManager manager;
+
+        private void Start()
+        {
+            manager = GetComponentInParent<PlayerPickUpManager>();      
+        }
         private void OnTriggerEnter2D(Collider2D collision)
         {
             if (collision.gameObject.TryGetComponent<IFoodItem>(out var foodItem))
             {
-                Debug.Log(foodItem.ItemFood);
+               manager.ItemHasPickuped?.Invoke(this, foodItem);
             }
         }
     }

@@ -14,4 +14,9 @@ namespace CookingMaster
 		Pear,
 		Watermalon
 	}
+
+	public interface IPickupItems
+	{
+		public Queue<IFoodItem> pickUpItems { get; }
+	}
 }
