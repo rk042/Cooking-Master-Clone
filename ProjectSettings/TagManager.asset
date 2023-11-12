@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Item
   layers:
   - Default
   - TransparentFX
@@ -40,4 +41,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: GameBg
+    uniqueID: 3879497373
+    locked: 0
+  - name: PlayerBottom
+    uniqueID: 1839470611
+    locked: 0
+  - name: Player
+    uniqueID: 323483961
+    locked: 0
+  - name: PlayerTop
+    uniqueID: 1578608105
+    locked: 0
+  - name: Sky
+    uniqueID: 1643581543
     locked: 0
