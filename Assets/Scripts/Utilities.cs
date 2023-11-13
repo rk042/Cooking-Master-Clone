@@ -17,6 +17,7 @@ namespace CookingMaster
 
 	public interface IPickupItems
 	{
-		public Queue<IFoodItem> pickUpItems { get; }
+		public Player player { get; }
+		public PlayerPickUpManager manager { get; }
 	}
 }

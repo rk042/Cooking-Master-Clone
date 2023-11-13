@@ -8,6 +8,8 @@ namespace CookingMaster
     {
         [SerializeField] PlayerMovement playerMovement;
         [SerializeField] float moveSpeed;
+        
+        private bool isPlayerMove = true;
 
         private void Start()
         {
@@ -16,7 +18,18 @@ namespace CookingMaster
 
         private void Update()
         {
-            playerMovement.MovePlayerUpdate(transform,moveSpeed);
+            if (isPlayerMove) 
+            { 
+                playerMovement.MovePlayerUpdate(transform,moveSpeed);
+            }
+        }
+        public void StopPlayerMovement()
+        {
+           isPlayerMove = false;
+        }
+        public void StartPlayerMoveMent()
+        {
+            isPlayerMove = true;
         }
     }
 }

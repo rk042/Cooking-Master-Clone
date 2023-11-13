@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 namespace CookingMaster
 {
@@ -11,7 +12,8 @@ namespace CookingMaster
         public float Weight { get; }
         public float ChoopingSpeed { get; }
         public int Money { get; }
-        public bool IsChooped { get; }
-
+        public bool IsChooped { get; set; }
+        public Sprite sprite { get; }
+        public IEnumerator StartProcess();
     }
 }
