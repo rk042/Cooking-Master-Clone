@@ -10,12 +10,12 @@ namespace CookingMaster
         [SerializeField] int itemsCountPlayerCanPickup = 2;
         [SerializeField] SpriteRenderer[] pickupItem;
 
-        public Queue<IFoodItem> pickUpItems { get; private set; } = new Queue<IFoodItem>();
+        public Queue<Item> pickUpItems { get; private set; } = new Queue<Item>();
         public Player player { get ; set ; }
 
         public PlayerPickUpManager manager { get; private set; }
 
-        public EventHandler<IFoodItem> ItemHasPickuped;
+        public EventHandler<Item> ItemHasPickuped;
         public bool isChoopingDone = false;
 
         private void Start()
@@ -34,7 +34,7 @@ namespace CookingMaster
             ItemHasPickuped -= OnItemHasPickuped;    
         }
 
-        private void OnItemHasPickuped(object sender, IFoodItem e)
+        private void OnItemHasPickuped(object sender, Item e)
         {
             if (pickUpItems.Count<itemsCountPlayerCanPickup)
             {

@@ -19,6 +19,14 @@ namespace CookingMaster
                     {
                         Debug.Log("food delivered");
                         items.manager.isChoopingDone = false;
+                        
+                        foreach (var item in items.manager.pickUpItems)
+                        {
+                            items.player.Score+=item.Money;
+                        }
+                        
+                        GameManager.instance.OnScoreUpdate?.Invoke(null,items.player);
+                        
                         items.manager.pickUpItems.Clear();
                         items.manager.ClearPlayerHands();
                         GC.Collect();
@@ -30,6 +38,7 @@ namespace CookingMaster
                             if (!item.IsChooped)
                             {
                                 Debug.LogError($"{item.ItemFood} is not cooked.");
+                                items.player.Score -= item.Money;
                             }
                         }
                     }
