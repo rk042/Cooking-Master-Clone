@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,6 +21,7 @@ namespace CookingMaster
                         items.manager.isChoopingDone = false;
                         items.manager.pickUpItems.Clear();
                         items.manager.ClearPlayerHands();
+                        GC.Collect();
                     }
                     else
                     {

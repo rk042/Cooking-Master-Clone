@@ -13,13 +13,27 @@ namespace CookingMaster
         [field:SerializeField] public int Money { get; private set; }
         public bool IsChooped { get; set; }
         [field:SerializeField] public Sprite sprite { get;  set; }
-        public EventHandler<bool> processStatus { get ; set ; }
 
         public IEnumerator StartProcess()
         {
             Debug.Log($"{ItemFood} is starting");
             yield return new WaitForSecondsRealtime(ChoopingSpeed);
             Debug.Log($"{ItemFood} is done");
+        }
+
+        public Item(Item a)
+        {
+            ItemFood = a.ItemFood;
+            Weight = a.Weight;
+            ChoopingSpeed = a.ChoopingSpeed;
+            Money = a.Money;
+            IsChooped = a.IsChooped;
+            this.sprite = a.sprite;
+        }
+
+        public Item()
+        {
+            
         }
     }
 }

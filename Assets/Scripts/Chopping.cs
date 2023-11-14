@@ -37,7 +37,7 @@ namespace CookingMaster
             {
                 if (item.IsChooped)
                 {
-                    Debug.Log($"item is ===>>> {item.IsChooped}");
+                    Debug.Log($"{item.ItemFood} is ===>>> {item.IsChooped}");
                     continue;
                 }
 

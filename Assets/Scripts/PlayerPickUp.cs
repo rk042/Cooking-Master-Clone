@@ -1,3 +1,4 @@
+using CookingMaster;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,14 +11,16 @@ namespace CookingMaster
 
         private void Start()
         {
-            manager = GetComponentInParent<PlayerPickUpManager>();      
+            manager = GetComponentInParent<PlayerPickUpManager>();
         }
         private void OnTriggerEnter2D(Collider2D collision)
         {
-            if (collision.gameObject.TryGetComponent<IFoodItem>(out var foodItem))
+            if (collision.gameObject.TryGetComponent<Item>(out var foodItem))
             {
-               manager.ItemHasPickuped?.Invoke(this, foodItem);
+                Item item= new Item(foodItem);
+                manager.ItemHasPickuped?.Invoke(this, item);   
             }
         }
     }
 }
+
