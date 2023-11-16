@@ -567,7 +567,7 @@ Transform:
   - {fileID: 2242694764680788994}
   - {fileID: 6330406865920479990}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &319651366032273950
 PrefabInstance:
@@ -650,12 +650,32 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
+      propertyPath: <Money>k__BackingField
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
       propertyPath: <money>k__BackingField
       value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
+      propertyPath: <Weight>k__BackingField
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
+      propertyPath: <sprite>k__BackingField
+      value: 
+      objectReference: {fileID: -1732810109, guid: 6941efbe4840d18458c61cc27db6fcc2, type: 3}
+    - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
       propertyPath: <weight>k__BackingField
       value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
+      propertyPath: <ItemFood>k__BackingField
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
+      propertyPath: <ChoopingSpeed>k__BackingField
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
       propertyPath: <choopingSpeed>k__BackingField
@@ -723,6 +743,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2242694764680788994}
     m_Modifications:
+    - target: {fileID: 1628232091279494899, guid: 98e78ca2cad315e498c7b8b2dfa47637, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1628232091279494899, guid: 98e78ca2cad315e498c7b8b2dfa47637, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3077780331969518757, guid: 98e78ca2cad315e498c7b8b2dfa47637, type: 3}
       propertyPath: m_Name
       value: Customer (3)
@@ -798,9 +826,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3077780331969518757, guid: 98e78ca2cad315e498c7b8b2dfa47637, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3264380332663805429}
-    - targetCorrespondingSourceObject: {fileID: 3077780331969518757, guid: 98e78ca2cad315e498c7b8b2dfa47637, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1036075665156563469}
   m_SourcePrefab: {fileID: 100100000, guid: 98e78ca2cad315e498c7b8b2dfa47637, type: 3}
 --- !u!1 &4253645816910435215 stripped
 GameObject:
@@ -834,18 +859,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1036075665156563469
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4253645816910435215}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57f0b3d5172268747b1960ddde7b2512, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &6320784193435196181 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5045838144640128063, guid: 98e78ca2cad315e498c7b8b2dfa47637, type: 3}
@@ -932,12 +945,32 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
+      propertyPath: <Money>k__BackingField
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
       propertyPath: <money>k__BackingField
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
+      propertyPath: <Weight>k__BackingField
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
+      propertyPath: <sprite>k__BackingField
+      value: 
+      objectReference: {fileID: -1871705577, guid: 6941efbe4840d18458c61cc27db6fcc2, type: 3}
+    - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
       propertyPath: <weight>k__BackingField
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
+      propertyPath: <ItemFood>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
+      propertyPath: <ChoopingSpeed>k__BackingField
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
       propertyPath: <choopingSpeed>k__BackingField
@@ -1014,10 +1047,6 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5045838144640128063, guid: 98e78ca2cad315e498c7b8b2dfa47637, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.06
-      objectReference: {fileID: 0}
-    - target: {fileID: 5045838144640128063, guid: 98e78ca2cad315e498c7b8b2dfa47637, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.185
       objectReference: {fileID: 0}
@@ -1057,77 +1086,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8894810137450958780, guid: 98e78ca2cad315e498c7b8b2dfa47637, type: 3}
-      propertyPath: m_Size.x
-      value: 0.46
-      objectReference: {fileID: 0}
-    - target: {fileID: 8894810137450958780, guid: 98e78ca2cad315e498c7b8b2dfa47637, type: 3}
-      propertyPath: m_Size.y
-      value: 1.29
-      objectReference: {fileID: 0}
-    - target: {fileID: 8894810137450958780, guid: 98e78ca2cad315e498c7b8b2dfa47637, type: 3}
-      propertyPath: m_Offset.y
-      value: -0.18
-      objectReference: {fileID: 0}
-    - target: {fileID: 8894810137450958780, guid: 98e78ca2cad315e498c7b8b2dfa47637, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3077780331969518757, guid: 98e78ca2cad315e498c7b8b2dfa47637, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 5145521377784961707}
-    - targetCorrespondingSourceObject: {fileID: 3077780331969518757, guid: 98e78ca2cad315e498c7b8b2dfa47637, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 3925663752318034621}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98e78ca2cad315e498c7b8b2dfa47637, type: 3}
---- !u!1 &235827611529647418 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3077780331969518757, guid: 98e78ca2cad315e498c7b8b2dfa47637, type: 3}
-  m_PrefabInstance: {fileID: 3022947864982456735}
-  m_PrefabAsset: {fileID: 0}
---- !u!50 &5145521377784961707
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 235827611529647418}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!114 &3925663752318034621
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 235827611529647418}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57f0b3d5172268747b1960ddde7b2512, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &8067565550633098656 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5045838144640128063, guid: 98e78ca2cad315e498c7b8b2dfa47637, type: 3}
@@ -1214,12 +1177,32 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
+      propertyPath: <Money>k__BackingField
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
       propertyPath: <money>k__BackingField
       value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
+      propertyPath: <Weight>k__BackingField
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
+      propertyPath: <sprite>k__BackingField
+      value: 
+      objectReference: {fileID: -803785240, guid: 6941efbe4840d18458c61cc27db6fcc2, type: 3}
+    - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
       propertyPath: <weight>k__BackingField
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
+      propertyPath: <ItemFood>k__BackingField
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
+      propertyPath: <ChoopingSpeed>k__BackingField
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
       propertyPath: <choopingSpeed>k__BackingField
@@ -1287,6 +1270,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2242694764680788994}
     m_Modifications:
+    - target: {fileID: 1628232091279494899, guid: 98e78ca2cad315e498c7b8b2dfa47637, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1628232091279494899, guid: 98e78ca2cad315e498c7b8b2dfa47637, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3077780331969518757, guid: 98e78ca2cad315e498c7b8b2dfa47637, type: 3}
       propertyPath: m_Name
       value: Customer (1)
@@ -1362,9 +1353,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3077780331969518757, guid: 98e78ca2cad315e498c7b8b2dfa47637, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4279314794504303527}
-    - targetCorrespondingSourceObject: {fileID: 3077780331969518757, guid: 98e78ca2cad315e498c7b8b2dfa47637, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 6920071130769670257}
   m_SourcePrefab: {fileID: 100100000, guid: 98e78ca2cad315e498c7b8b2dfa47637, type: 3}
 --- !u!4 &1146985034143573385 stripped
 Transform:
@@ -1403,18 +1391,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &6920071130769670257
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7159310700568849683}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57f0b3d5172268747b1960ddde7b2512, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &5482517018922737035
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1501,6 +1477,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2242694764680788994}
     m_Modifications:
+    - target: {fileID: 1628232091279494899, guid: 98e78ca2cad315e498c7b8b2dfa47637, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1628232091279494899, guid: 98e78ca2cad315e498c7b8b2dfa47637, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3077780331969518757, guid: 98e78ca2cad315e498c7b8b2dfa47637, type: 3}
       propertyPath: m_Name
       value: Customer (2)
@@ -1576,9 +1560,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3077780331969518757, guid: 98e78ca2cad315e498c7b8b2dfa47637, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2577884535439949319}
-    - targetCorrespondingSourceObject: {fileID: 3077780331969518757, guid: 98e78ca2cad315e498c7b8b2dfa47637, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1026701878630133653}
   m_SourcePrefab: {fileID: 100100000, guid: 98e78ca2cad315e498c7b8b2dfa47637, type: 3}
 --- !u!4 &1725027210575473387 stripped
 Transform:
@@ -1617,18 +1598,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1026701878630133653
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8881262234574381681}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57f0b3d5172268747b1960ddde7b2512, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &6504130165612020088
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1787,6 +1756,26 @@ PrefabInstance:
       propertyPath: <item>k__BackingField
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
+      propertyPath: <Money>k__BackingField
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
+      propertyPath: <Weight>k__BackingField
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
+      propertyPath: <sprite>k__BackingField
+      value: 
+      objectReference: {fileID: -1450747543, guid: 6941efbe4840d18458c61cc27db6fcc2, type: 3}
+    - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
+      propertyPath: <ItemFood>k__BackingField
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
+      propertyPath: <ChoopingSpeed>k__BackingField
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 7177944717286434974, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
       propertyPath: m_Name
       value: Banana
@@ -1849,6 +1838,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6330406865920479990}
     m_Modifications:
+    - target: {fileID: 1049926903895379150, guid: b4317de293c905848afbf8c80012c676, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1049926903895379150, guid: b4317de293c905848afbf8c80012c676, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1049926903895379150, guid: b4317de293c905848afbf8c80012c676, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1839470611
+      objectReference: {fileID: 0}
     - target: {fileID: 4670000381173872280, guid: b4317de293c905848afbf8c80012c676, type: 3}
       propertyPath: m_Layer
       value: 7
@@ -1945,6 +1946,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aacf064e0e7bbd7488f6048ed1fc9214, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 7379623931272212302}
 --- !u!50 &6561023098561985820
 Rigidbody2D:
   serializedVersion: 4
@@ -1977,6 +1979,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8162075290767972585, guid: b4317de293c905848afbf8c80012c676, type: 3}
   m_PrefabInstance: {fileID: 7564822694219015040}
   m_PrefabAsset: {fileID: 0}
+--- !u!212 &7379623931272212302 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 1049926903895379150, guid: b4317de293c905848afbf8c80012c676, type: 3}
+  m_PrefabInstance: {fileID: 7564822694219015040}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7808350447553897349
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1985,6 +1992,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6330406865920479990}
     m_Modifications:
+    - target: {fileID: 1049926903895379150, guid: b4317de293c905848afbf8c80012c676, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1049926903895379150, guid: b4317de293c905848afbf8c80012c676, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1049926903895379150, guid: b4317de293c905848afbf8c80012c676, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1839470611
+      objectReference: {fileID: 0}
     - target: {fileID: 4670000381173872280, guid: b4317de293c905848afbf8c80012c676, type: 3}
       propertyPath: m_Layer
       value: 7
@@ -2081,6 +2100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aacf064e0e7bbd7488f6048ed1fc9214, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 7119843188431990603}
 --- !u!50 &3190906693266310262
 Rigidbody2D:
   serializedVersion: 4
@@ -2111,6 +2131,11 @@ Rigidbody2D:
 --- !u!4 &2096796604676815724 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8162075290767972585, guid: b4317de293c905848afbf8c80012c676, type: 3}
+  m_PrefabInstance: {fileID: 7808350447553897349}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &7119843188431990603 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 1049926903895379150, guid: b4317de293c905848afbf8c80012c676, type: 3}
   m_PrefabInstance: {fileID: 7808350447553897349}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7810823847345760477
@@ -2194,12 +2219,32 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
+      propertyPath: <Money>k__BackingField
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
       propertyPath: <money>k__BackingField
       value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
+      propertyPath: <Weight>k__BackingField
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
+      propertyPath: <sprite>k__BackingField
+      value: 
+      objectReference: {fileID: 1233051937, guid: 6941efbe4840d18458c61cc27db6fcc2, type: 3}
+    - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
       propertyPath: <weight>k__BackingField
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
+      propertyPath: <ItemFood>k__BackingField
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
+      propertyPath: <ChoopingSpeed>k__BackingField
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
       propertyPath: <choopingSpeed>k__BackingField
@@ -2340,11 +2385,31 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
+      propertyPath: <Money>k__BackingField
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
       propertyPath: <money>k__BackingField
       value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
+      propertyPath: <Weight>k__BackingField
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
+      propertyPath: <sprite>k__BackingField
+      value: 
+      objectReference: {fileID: 1854312281, guid: 6941efbe4840d18458c61cc27db6fcc2, type: 3}
+    - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
       propertyPath: <weight>k__BackingField
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
+      propertyPath: <ItemFood>k__BackingField
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}
+      propertyPath: <ChoopingSpeed>k__BackingField
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3713259235487306851, guid: a2bd7df1a6787c74e89f8c2701876ff8, type: 3}

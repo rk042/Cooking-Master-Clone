@@ -1,0 +1,764 @@
+fileFormatVersion: 2
+guid: fcaecbe58e7ad9347aacb9f073b25389
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OF166L0_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1201
+        width: 258
+        height: 307
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ebdb2e932a013b41926fe7a94c545d9
+      internalID: -91358281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OF166L0_5
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1200
+        width: 258
+        height: 311
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5ada94570b8044b820de260c541afc
+      internalID: -263409947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OF166L0_7
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 1200
+        width: 258
+        height: 330
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ec63beb7476a3419e530c648ffc51f
+      internalID: 703257197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OF166L0_10
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 1200
+        width: 258
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af75417243120144393bbe0b47115742
+      internalID: -435393459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OF166L0_14
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 1200
+        width: 252
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c186ea202a21cb249b5484babb33645b
+      internalID: -1283021384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OF166L0_15
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 1200
+        width: 258
+        height: 301
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a7116f4e9a362459ce2db96a538aec
+      internalID: 1123110667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OF166L0_38
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 840
+        width: 258
+        height: 314
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99df224b3d5573445ba5e7b122aa0b3e
+      internalID: 249866637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OF166L0_41
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 840
+        width: 258
+        height: 318
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f22570266021704d8119fe060011bc6
+      internalID: -588900307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OF166L0_42
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 840
+        width: 258
+        height: 303
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63032f95ce5b03418cec06c5f6a4fe8
+      internalID: 130094791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OF166L0_44
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 840
+        width: 258
+        height: 307
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36f90a9064ed7a4fa959ec0ed06bc7c
+      internalID: -1103225242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OF166L0_45
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 840
+        width: 252
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3adae15c807b28a479c8ded98c6073c4
+      internalID: 718587468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OF166L0_46
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 840
+        width: 258
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91fba8fba3f1fa4f90696eaec0af9dd
+      internalID: 1330294844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OF166L0_66
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 480
+        width: 258
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ecbb9868f01f241b85a63a3af8fcac
+      internalID: -1221660033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OF166L0_67
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 480
+        width: 258
+        height: 324
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2317510193d02f9478a7e7bf18bcb346
+      internalID: 1114788177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OF166L0_70
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 480
+        width: 258
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bef7454b36b0a241bb21471f4e36603
+      internalID: 1816824388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OF166L0_71
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 480
+        width: 252
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12b7b3207a3467439137518afa5bbba
+      internalID: 1541047433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OF166L0_73
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 480
+        width: 258
+        height: 303
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab64434d8ccd09a4aa3f6761feed9ed6
+      internalID: 851037463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OF166L0_77
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 480
+        width: 258
+        height: 298
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024e0c4203b1c2b4eb7ca894f70f7e97
+      internalID: -1004528791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OF166L0_91
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 126
+        width: 252
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f5f7a1832578947955680e1862b861
+      internalID: 1028361115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OF166L0_97
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 120
+        width: 258
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636650c6c53a5c645a7a4baba992e4bb
+      internalID: -1057249975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OF166L0_99
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 120
+        width: 258
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49da64285d7f0a4dac3c9b2ee3ee163
+      internalID: 1437328939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OF166L0_101
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 120
+        width: 258
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc55acb9bda0a384ab152777b048218e
+      internalID: -2112266629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OF166L0_103
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 120
+        width: 258
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2dcb810f4795c4f8d1257dbdffffbe
+      internalID: -1095035574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OF166L0_104
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 126
+        width: 252
+        height: 292
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4935639be8e7e1948b2b46cb4b5e6932
+      internalID: -915915450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      OF166L0_0: -91358281
+      OF166L0_1: 568237306
+      OF166L0_10: -435393459
+      OF166L0_100: -175138832
+      OF166L0_101: -2112266629
+      OF166L0_102: -2051436576
+      OF166L0_103: -1095035574
+      OF166L0_104: -915915450
+      OF166L0_105: -336278636
+      OF166L0_106: -2073664538
+      OF166L0_107: -355709571
+      OF166L0_108: -2126719515
+      OF166L0_109: -678309712
+      OF166L0_11: 1153308943
+      OF166L0_110: -2014457353
+      OF166L0_111: -766599155
+      OF166L0_112: 1966827891
+      OF166L0_113: -668403593
+      OF166L0_114: -890605056
+      OF166L0_115: -2033438054
+      OF166L0_116: -1279160377
+      OF166L0_117: -625975197
+      OF166L0_118: -797063261
+      OF166L0_119: -1973333007
+      OF166L0_12: 1437691470
+      OF166L0_13: 449310509
+      OF166L0_14: -1283021384
+      OF166L0_15: 1123110667
+      OF166L0_16: -566514189
+      OF166L0_17: 1615206003
+      OF166L0_18: 212381683
+      OF166L0_19: 1413673020
+      OF166L0_2: 988241734
+      OF166L0_20: 1850263433
+      OF166L0_21: -1431033999
+      OF166L0_22: -1308075141
+      OF166L0_23: 2144077724
+      OF166L0_24: -966129060
+      OF166L0_25: 1714743905
+      OF166L0_26: 68561928
+      OF166L0_27: -905830898
+      OF166L0_28: 134805097
+      OF166L0_29: 318539980
+      OF166L0_3: 288976321
+      OF166L0_30: 1689262763
+      OF166L0_31: -2104069239
+      OF166L0_32: -535388517
+      OF166L0_33: -552643989
+      OF166L0_34: -167365449
+      OF166L0_35: 1101207641
+      OF166L0_36: 709107529
+      OF166L0_37: 2084332940
+      OF166L0_38: 249866637
+      OF166L0_39: -1393415189
+      OF166L0_4: -1199389638
+      OF166L0_40: 1570461017
+      OF166L0_41: -588900307
+      OF166L0_42: 130094791
+      OF166L0_43: -1096294199
+      OF166L0_44: -1103225242
+      OF166L0_45: 718587468
+      OF166L0_46: 1330294844
+      OF166L0_47: -546596009
+      OF166L0_48: 1957934798
+      OF166L0_49: -1982069152
+      OF166L0_5: -263409947
+      OF166L0_50: -308497716
+      OF166L0_51: -1627152160
+      OF166L0_52: -1514451651
+      OF166L0_53: -163748794
+      OF166L0_54: 1330874660
+      OF166L0_55: -800208476
+      OF166L0_56: 1848880374
+      OF166L0_57: 1908456055
+      OF166L0_58: -941672749
+      OF166L0_59: -1112199865
+      OF166L0_6: -1288194838
+      OF166L0_60: 916141879
+      OF166L0_61: 1207421786
+      OF166L0_62: -1420996893
+      OF166L0_63: 1572726644
+      OF166L0_64: -814077663
+      OF166L0_65: 1223325355
+      OF166L0_66: -1221660033
+      OF166L0_67: 1114788177
+      OF166L0_68: 849695133
+      OF166L0_69: -1887819355
+      OF166L0_7: 703257197
+      OF166L0_70: 1816824388
+      OF166L0_71: 1541047433
+      OF166L0_72: -170946136
+      OF166L0_73: 851037463
+      OF166L0_74: 423103286
+      OF166L0_75: -395609320
+      OF166L0_76: 1602286386
+      OF166L0_77: -1004528791
+      OF166L0_78: -826352310
+      OF166L0_79: -1089585534
+      OF166L0_8: -1551317738
+      OF166L0_80: 2029962485
+      OF166L0_81: 1203461488
+      OF166L0_82: -721944172
+      OF166L0_83: -1359305514
+      OF166L0_84: 321663302
+      OF166L0_85: -1145158556
+      OF166L0_86: 2000742793
+      OF166L0_87: 1227078366
+      OF166L0_88: -1839118829
+      OF166L0_89: 606682563
+      OF166L0_9: -201971220
+      OF166L0_90: 1988534555
+      OF166L0_91: 1028361115
+      OF166L0_92: -1908002583
+      OF166L0_93: -280749848
+      OF166L0_94: 1297086255
+      OF166L0_95: 325082740
+      OF166L0_96: -1844125058
+      OF166L0_97: -1057249975
+      OF166L0_98: 1522521213
+      OF166L0_99: 1437328939
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,8 +1,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using TMPro;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace CookingMaster
 {
@@ -10,6 +12,7 @@ namespace CookingMaster
     {
         [SerializeField] Player[] players;
         [SerializeField] TextMeshProUGUI[] txtPlayers;
+        [SerializeField] Item[] items;
 
         public static GameManager instance { get; private set; }
 
@@ -57,5 +60,26 @@ namespace CookingMaster
             }
         }
 
+        public Item GenerateNewItemRandom()
+        {
+            var ran = new System.Random();
+            var item = items[ran.Next(items.Length)];
+            Item itemtemp = new Item(item);
+            
+            return itemtemp;
+        }
+
+        public Item GenerateItem(Item item)
+        {
+            Item itemtemp = new(item);
+            return itemtemp;
+        }
+
+        public Player GetRandomPlayerForOder()
+        {
+            var rant = new System.Random();
+
+            return players[rant.Next(players.Length)];
+        }
     }
 }

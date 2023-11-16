@@ -17,7 +17,7 @@ namespace CookingMaster
         {
             if (collision.gameObject.TryGetComponent<Item>(out var foodItem))
             {
-                Item item= new(foodItem);
+                Item item = GameManager.instance.GenerateItem(foodItem);
                 manager.ItemHasPickuped?.Invoke(this, item);   
             }
         }
